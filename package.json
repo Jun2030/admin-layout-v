@@ -1,18 +1,18 @@
 {
   "name": "@2030/admin-v-layout",
-  "type": "module",
   "version": "0.1.0",
   "description": "ZiJun's common layout for admin projects",
-  "author": "ZiJun<zijun2030@163.com>",
-  "license": "MIT",
+  "keywords": [
+    "admin-layout"
+  ],
   "homepage": "https://github.com/Jun2030/admin-v-layout#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jun2030/admin-v-layout.git"
   },
-  "keywords": [
-    "admin-layout"
-  ],
+  "license": "MIT",
+  "author": "ZiJun<zijun2030@163.com>",
+  "type": "module",
   "exports": {
     ".": {
       "require": "./dist/index.umd.cjs",
@@ -23,7 +23,7 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist/*"
   ],
   "scripts": {
     "build": "npm run typecheck && vite build",
@@ -32,15 +32,6 @@
     "prepare": "husky install",
     "release": "bumpp package.json --commit --push --tag",
     "typecheck": "vue-tsc --noEmit"
-  },
-  "peerDependencies": {
-    "@vue/composition-api": "^1.0.0-rc.1",
-    "vue": "^2.0.0 || >=3.0.0"
-  },
-  "peerDependenciesMeta": {
-    "@vue/composition-api": {
-      "optional": true
-    }
   },
   "dependencies": {
     "@unocss/reset": "^0.45.23",
@@ -61,6 +52,15 @@
     "vite-plugin-dts": "^1.5.0",
     "vue": "^3.2.39",
     "vue-tsc": "^0.40.13"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
   },
   "publishConfig": {
     "access": "public",
