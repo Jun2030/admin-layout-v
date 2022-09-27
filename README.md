@@ -1,4 +1,4 @@
-# :sparkles:@2030/![NPM](https://img.shields.io/npm/l/@2030/admin-layout-v)
+# :sparkles:@2030/admin-layout-v
 
 ![npm (scoped)](https://img.shields.io/npm/v/@2030/admin-layout-v)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Jun2030/admin-layout-v/npm-publish-prod)
