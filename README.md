@@ -4,8 +4,6 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Jun2030/admin-v-layout/npm-publish-prod)
 ![NPM](https://img.shields.io/npm/l/@2030/admin-v-layout)
 ![GitHub top language](https://img.shields.io/github/languages/top/Jun2030/admin-v-layout)
-![npm bundle size](https://img.shields.io/bundlephobia/min/@2030/admin-v-layout)
-![npm](https://img.shields.io/npm/dt/@2030/admin-v-layout)
 
 > 针对Vue3版,适用管理端的通用基础布局
 
