@@ -1,17 +1,13 @@
-# :sparkles:@2030/admin-layout-v
+# :sparkles:@2030/![NPM](https://img.shields.io/npm/l/@2030/admin-layout-v)
 
-![npm](https://img.shields.io/npm/v/@2030/admin-layout-v)
+![npm (scoped)](https://img.shields.io/npm/v/@2030/admin-layout-v)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Jun2030/admin-layout-v/npm-publish-prod)
 ![NPM](https://img.shields.io/npm/l/@2030/admin-layout-v)
 ![GitHub top language](https://img.shields.io/github/languages/top/Jun2030/admin-layout-v)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@2030/admin-layout-v)
 ![npm](https://img.shields.io/npm/dt/@2030/admin-layout-v)
 
-> 代码提交规则标准规范
-
-## :fire:依赖说明
-
-- 针对Vue3版,适用管理端的通用基础布局
+> 针对Vue3版,适用管理端的通用基础布局
 
 ## :bulb:使用说明
 
