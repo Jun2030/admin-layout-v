@@ -1,0 +1,72 @@
+{
+  "name": "@2030/admin-layout-v",
+  "version": "0.0.0",
+  "description": "ZiJun's common layout for admin projects",
+  "keywords": [
+    "admin-layout"
+  ],
+  "license": "MIT",
+  "author": "ZiJun<zijun2030@163.com>",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run typecheck && vite build",
+    "dev": "vite",
+    "lint": "eslint . --fix",
+    "prepare": "husky install",
+    "release": "bumpp package.json --commit --push --tag",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.45.23",
+    "css-render": "^0.15.11",
+    "vue-demi": "^0.13.11"
+  },
+  "devDependencies": {
+    "@2030/commitlint-config": "^0.0.7",
+    "@2030/eslint-config": "^0.0.4",
+    "@commitlint/cli": "^17.1.2",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "bumpp": "^8.2.1",
+    "husky": "^8.0.1",
+    "typescript": "^4.8.3",
+    "unocss": "^0.45.23",
+    "unplugin-vue-define-options": "^0.11.2",
+    "vite": "^3.1.3",
+    "vite-plugin-dts": "^1.5.0",
+    "vue": "^3.2.39",
+    "vue-tsc": "^0.40.13"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "importSort": {
+    ".js, .jsx, .es6, .es": {
+      "parser": "babylon",
+      "style": "eslint",
+      "options": {}
+    },
+    ".ts, .tsx": {
+      "parser": "typescript",
+      "style": "module",
+      "options": {}
+    }
+  }
+}
