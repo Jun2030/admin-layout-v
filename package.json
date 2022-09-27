@@ -1,7 +1,7 @@
 {
   "name": "@2030/admin-v-layout",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ZiJun's common layout for admin projects",
   "author": "ZiJun<zijun2030@163.com>",
   "license": "MIT",
